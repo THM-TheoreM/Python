@@ -8,8 +8,8 @@
  - 在环境变量中的path加上安装路径（例如：D:\Program Files\Python27）
  - (在安装时勾选add path 可以免去这个步骤）
  
- -如果python上各类库的安装不顺利，可以直接下载Anaconda版python.(安装简单，集成各类科学计算库，无需再下载python)
- -https://www.continuum.io/downloads
+ - 如果python上各类库的安装不顺利，可以直接下载Anaconda版python.(安装简单，集成各类科学计算库，无需再下载python)
+ - https://www.continuum.io/downloads
 
 **编辑Python**
 

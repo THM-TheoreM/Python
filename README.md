@@ -19,10 +19,10 @@
   - PyNpp：支持交互式和脚本式编程
   - Python Script：支持交互式编程
  - 使用sublime3
-   使用插件前需要先安装 Package Control
+  - 使用插件前需要先安装 Package Control
  - 推荐插件
-  -Anaconda:各种高级功能
-  -SublimeREPL:使得sublime上运行各类语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）
+  - Anaconda:各类高级功能
+  - SublimeREPL:使得sublime上运行各类语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）
 
 **学习Python**
  

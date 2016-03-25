@@ -10,6 +10,7 @@
  
  -如果python上各类库的安装不顺利，可以直接下载Anaconda版python.(安装简单，集成各类科学计算库，无需再下载python)
  -https://www.continuum.io/downloads
+
 **编辑Python**
 
  - Python有自带的编辑器IDLE(Pyhon GUI)，Python(command line)
@@ -22,6 +23,7 @@
  - 推荐插件
   -Anaconda:各种高级功能
   -SublimeREPL:使得sublime上运行各类语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）
+
 **学习Python**
  
  - http://www.runoob.com/

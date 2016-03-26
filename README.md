@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 
 **安装Python**
 
@@ -86,7 +86,11 @@
  
  - 装饰器：高阶函数+返回函数
  
- - 匿名函数：lambda创建没有名字的函数 
+ - 匿名函数：lambda创建没有名字的函数
+
+**MySQL**
+
+ - http://www.runoob.com/python/python-mysql.html
  
  
  

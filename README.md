@@ -66,6 +66,8 @@
  
  - from module import foo：访问和调用指定函数和类，不用加模块名
 
+ - import module as a：把a当做module使用
+
 **类class**
 
 类包含了
@@ -110,6 +112,12 @@
 
  - http://www.runoob.com/python/python-mysql.html
  
- 
- 
+**NumPy**
 
+ - http://scipy-lectures.cn/intro/numpy/index.html
+
+**Matplotlib**
+
+ - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
+
+**Scipy**

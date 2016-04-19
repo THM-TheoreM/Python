@@ -3,33 +3,51 @@
 **安装Python**
 
  - 下载Python
-  - https://www.python.org/
+  
+   - https://www.python.org/
  
- - 在环境变量中的path加上安装路径（例如：D:\Program Files\Python27）
- - (在安装时勾选add path 可以免去这个步骤）
+ - 安装Python
  
- - 如果python上各类库的安装不顺利，可以直接下载Anaconda版python.(安装简单，集成各类科学计算库，无需再下载python)
- - https://www.continuum.io/downloads
+   - 在环境变量中的path加上安装路径（例如：D:\Program Files\Python27）
+   
+   - 在安装时勾选add path可以免去这个步骤
+ 
+ - 如果python上各类库的安装不顺利，可以直接下载Anaconda版Python.(安装简单，集成各类科学计算库，无需再下载python)
+ 
+   - https://www.continuum.io/downloads
 
 **编辑Python**
 
  - Python有自带的编辑器IDLE(Pyhon GUI)，Python(command line)
  
  - 使用notepad++
-  - PyNpp：支持交互式和脚本式编程
-  - Python Script：支持交互式编程
+
+   - PyNpp：支持交互式和脚本式编程
+ 
+   - Python Script：支持交互式编程
+ 
  - 使用sublime3
-  - 使用插件前需要先安装 Package Control
+ 
+   - 使用插件前需要先安装 Package Control
+
  - 推荐插件
-  - Anaconda:各类高级功能
-  - SublimeREPL:使得sublime上运行各类语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）
+  
+    - Anaconda：各类高级功能
+  
+    - SublimeREPL：使得sublime上运行各类语言（NodeJS，Python，Ruby，Scala 和 Haskell 等等）
+
+**安装Python模块**
+
+ -  http://blog.163.com/yang_jianli/blog/static/161990006201162152724339/
+
+ - 下载exe文件，比如http://download.csdn.net/detail/caanyee/8241305，可安装scipy
 
 **学习Python**
  
  - http://www.runoob.com/
  
  - http://www.liaoxuefeng.com/
- 
+
 **模块module**
 
 模块包含了

@@ -44,13 +44,15 @@
 
  -  http://blog.163.com/yang_jianli/blog/static/161990006201162152724339/
 
- - 下载exe文件，比如http://download.csdn.net/detail/caanyee/8241305，可安装scipy
+ - 下载exe文件，比如http://download.csdn.net/detail/caanyee/8241305
 
 **学习Python**
  
  - http://www.runoob.com/
  
  - http://www.liaoxuefeng.com/
+
+ - http://docs.python-guide.org/en/latest/
 
 **模块module**
 

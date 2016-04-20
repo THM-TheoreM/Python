@@ -36,6 +36,10 @@
   
     - SublimeREPL：使得sublime上运行各类语言（NodeJS，Python，Ruby，Scala 和 Haskell 等等）
 
+**Python的编译器和解释器**
+
+ - http://www.open-open.com/lib/view/open1380418623307.html
+
 **安装Python模块**
 
  -  http://blog.163.com/yang_jianli/blog/static/161990006201162152724339/
@@ -73,8 +77,10 @@
 类包含了
 
  - 属性（属性成员，数据成员）和方法
-  - 属性分为类变量和实例变量
-  - 成员分为公有成员和私有成员（通过foo和\__foo区别，还要注意\_foo，\__foo\__的用法）
+
+   - 属性分为类变量和实例变量
+  
+   - 成员分为公有成员和私有成员（通过foo和\__foo区别，还要注意\_foo，\__foo\__的用法）
  
  - 方法重写
  

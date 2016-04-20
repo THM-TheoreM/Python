@@ -24,3 +24,20 @@ e = np.linspace(0,1,6)
 print e
 e = np.linspace(0,1,5,endpoint=False)
 print e
+
+#随机数组
+np.random.seed(1234)
+f = np.random.rand(4)
+print f
+f = np.random.randn(4)
+print f
+
+#常用数组
+g = np.ones((3,3))
+print g
+g = np.zeros((2,2))
+print g
+g = np.eye(3)
+print g
+g = np.diag([1,2,3,4])
+print g

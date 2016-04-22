@@ -127,5 +127,3 @@
 **Matplotlib**
 
  - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
-
-**Scipy**

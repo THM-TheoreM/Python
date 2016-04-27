@@ -40,6 +40,8 @@
 
  - http://www.open-open.com/lib/view/open1380418623307.html
 
+ - ipython是一个python的交互式shell，比默认的python shell好用得多
+
 **安装Python模块**
 
  -  http://blog.163.com/yang_jianli/blog/static/161990006201162152724339/
@@ -120,10 +122,18 @@
 
  - http://www.runoob.com/python/python-mysql.html
  
-**NumPy**
+**numPy**
 
  - http://scipy-lectures.cn/intro/numpy/index.html
 
-**Matplotlib**
+**matplotlib**
 
  - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
+
+**pandas**
+
+**scipy**
+
+ - http://blog.csdn.net/lwfcgz/article/details/23290623
+
+**scikit-learn**

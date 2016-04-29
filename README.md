@@ -147,3 +147,7 @@
  - http://blog.csdn.net/lwfcgz/article/details/23290623
 
 **scikit-learn**
+
+ - 机器学习
+ 
+ - http://scikit-learn.org/stable/

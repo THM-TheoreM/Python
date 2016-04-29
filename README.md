@@ -124,13 +124,19 @@
  
 **numPy**
 
+ - 操作矩阵，类比matlab的部分功能
+
  - http://scipy-lectures.cn/intro/numpy/index.html
 
 **matplotlib**
 
+ - 绘制图表，类比matlab的部分功能
+
  - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
 
 **pandas**
+
+ - 存放，索引数据，类比SQL
 
  - http://www.cnblogs.com/chaosimple/p/4153083.html
 

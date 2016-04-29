@@ -38,8 +38,8 @@ print df.sort_index(axis=1, ascending=False)
 print df.sort(columns='B')
 
 #选择
-#获取
-#通过标签选择
-#通过位置选择
-#布尔索引
-#设置
+#1 获取
+#2 通过标签选择
+#3 通过位置选择
+#4 布尔索引
+#5 设置

@@ -124,13 +124,13 @@
  
 **numPy**
 
- - 操作矩阵，类比matlab的部分功能
+ - 操作矩阵
 
  - http://scipy-lectures.cn/intro/numpy/index.html
 
 **matplotlib**
 
- - 绘制图表，类比matlab的画图功能
+ - 绘制图表
 
  - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
 
@@ -141,6 +141,8 @@
  - http://www.cnblogs.com/chaosimple/p/4153083.html
 
 **scipy**
+
+ - 各种数值，统计等计算
 
  - http://blog.csdn.net/lwfcgz/article/details/23290623
 

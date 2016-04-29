@@ -132,6 +132,8 @@
 
 **pandas**
 
+ - http://www.cnblogs.com/chaosimple/p/4153083.html
+
 **scipy**
 
  - http://blog.csdn.net/lwfcgz/article/details/23290623

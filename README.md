@@ -154,7 +154,7 @@
  
  - http://scikit-learn.org/stable/
 
-**PIL**
+**pil**
 
  - 图像处理
 

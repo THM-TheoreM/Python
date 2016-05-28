@@ -48,6 +48,8 @@
 
  - 下载exe文件，比如http://download.csdn.net/detail/caanyee/8241305
 
+ - pip的更新：提示"You are using pip version 8.1.1, however version 8.1.2 is available"导致不能使用pip命令，可使用命令"easy_install.exe pip==8.1.2"来更新
+
 **学习Python**
  
  - http://www.runoob.com/

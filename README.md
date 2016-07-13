@@ -1,164 +1,86 @@
 ﻿# Python
 
-**安装Python**
+## 安装
 
- - 下载Python
+- [官网](https://www.python.org)下载
+ 
+- 将python的安装目录添加到环境变量的path中（若在安装时勾选add path，可以免去这个步骤）
+
+## 编辑器
+
+- 自带编辑器
+
+  - IDLE（Pyhon GUI）：支持脚本式
+
+  - Python（command line）：支持交互式
+ 
+- Notepad++
+
+  - PyNpp：支持交互式和脚本式
+ 
+  - Python Script：支持交互式
+
+  - NppExec：支持脚本式
+ 
+- Sublime3
+ 
+  - 使用插件前需先安装package control
+
+  - SublimeREPL可使得sublime上运行各类语言，如NodeJS，python，ruby，scala和haskell等等
   
-   - https://www.python.org/
+- Anaconda
  
- - 安装Python
- 
-   - 在环境变量中的path加上安装路径（例如：D:\Program Files\Python27）
+   - [官网](https://www.continuum.io/downloads)下载
+
+   - 安装简单，集成各类科学计算库，无需再下载python
+
+## 编译
+
+- [python的编译机制]http://www.open-open.com/lib/view/open1380418623307.html
+
+## 模块
+
+- 安装
+
+  - [python模块常用的几种安装方式](http://blog.163.com/yang_jianli/blog/static/161990006201162152724339)
+
+  - 下载exe安装，比如[scipy](http://download.csdn.net/detail/caanyee/8241305)
+
+```
+  pip freeze：查看所有模块
    
-   - 在安装时勾选add path可以免去这个步骤
+  pip list --outdated：查看所有过期模块
+
+  pip install --upgrade xxxx：升级xxxx模块
+```
+
+  - 更新提示`You are using pip version 8.1.1，however version 8.1.2 is available`导致不能使用pip命令，可使用命令`easy_install.exe pip==8.1.2`
+
+- 导入
+
+```
+  import module：使用模块，需要加类名加以访问和调用
+
+  import module as xxxx：把模块当做xxxx使用
  
- - 如果python上各类库的安装不顺利，可以直接下载Anaconda版Python（安装简单，集成各类科学计算库，无需再下载Python）
+  from module import *：使用模块，可直接访问和调用其中的类
  
-   - https://www.continuum.io/downloads
+  from module import xxxx：使用模块，可直接访问和调用指定的类xxxx
+```
 
-**编辑Python**
-
- - Python有自带的编辑器IDLE（Pyhon GUI），Python（command line）
+## 教程
  
- - 使用Notepad++
-
-   - PyNpp：支持交互式和脚本式编程
+- [菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
  
-   - Python Script：支持交互式编程
+- [廖雪峰的python教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+- [The Hitchhiker's Guide to Python!](http://docs.python-guide.org/en/latest)
+
+## 参考书目
+
+- [python核心编程](https://www.gitbook.com/book/wizardforcel/core-python-2e/details)
  
- - 使用Sublime3
- 
-   - 使用插件前需要先安装Package Control
+- [笨办法学python](https://www.gitbook.com/book/wizardforcel/lpthw/details)
 
- - 推荐插件
-  
-    - Anaconda：各类高级功能
-  
-    - SublimeREPL：使得Sublime上运行各类语言（NodeJS，Python，Ruby，Scala和Haskell等等）
+- [learn python the hard way](http://learnpythonthehardway.org/book/preface.html)
 
-**Python的编译器和解释器**
-
- - http://www.open-open.com/lib/view/open1380418623307.html
-
- - ipython是一个python的交互式shell，比默认的python shell好用得多
-
-**安装Python模块**
-
- -  http://blog.163.com/yang_jianli/blog/static/161990006201162152724339/
-
- - 下载exe文件，比如http://download.csdn.net/detail/caanyee/8241305
-
- - pip的更新：提示"You are using pip version 8.1.1, however version 8.1.2 is available"导致不能使用pip命令，可使用命令"easy_install.exe pip==8.1.2"来更新
-
-**学习Python**
- 
- - http://www.runoob.com/
- 
- - http://www.liaoxuefeng.com/
-
- - http://docs.python-guide.org/en/latest/
- 
- - https://www.dataquest.io/learn 
- 
-**模块module**
-
-模块包含了
-
- - 类
- 
- - 变量
-
- - 函数
- 
-模块的导入，目的是访问和调用函数或者类
-
- - import module：访问和调用全部函数和类，需要加模块名
- 
- - from module import *：访问和调用全部函数和类，不用加模块名
- 
- - from module import foo：访问和调用指定函数和类，不用加模块名
-
- - import module as a：把a当做module使用
-
-**类class**
-
-类包含了
-
- - 属性（属性成员，数据成员）和方法
-
-   - 属性分为类变量和实例变量
-  
-   - 成员分为公有成员和私有成员（通过foo和\__foo区别，还要注意\_foo，\__foo\__的用法）
- 
- - 方法重写
- 
- - 方法重载 
-
-**变量variable**
-
- - string
-
- - list
- 
- - tuple
- 
- - dict
- 
- - set
- 
-**生成器generator&迭代器iterator**
-
- - 上面的variable不是迭代器，不是惰性序列
- 
- - 生成器是迭代器，是惰性序列 
-
-**函数式编程functional programming**
-
- - 高阶函数：参数为函数
- 
- - 返回函数：return的值为函数
- 
- - 装饰器：高阶函数+返回函数
- 
- - 匿名函数：lambda创建没有名字的函数
-
-**MySQL**
-
- - http://www.runoob.com/python/python-mysql.html
- 
-**numPy**
-
- - 操作矩阵
-
- - http://scipy-lectures.cn/intro/numpy/index.html
-
-**matplotlib**
-
- - 绘制图表
-
- - http://scipy-lectures.cn/intro/matplotlib/matplotlib.html
-
-**pandas**
-
- - 索引数据，类比SQL
-
- - http://www.cnblogs.com/chaosimple/p/4153083.html
-
-**scipy**
-
- - 各种数值，统计等计算
-
- - http://blog.csdn.net/lwfcgz/article/details/23290623
-
-**scikit-learn**
-
- - 机器学习
- 
- - http://scikit-learn.org/stable/
-
-**pil**
-
- - 图像处理
-
- - http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140767171357714f87a053a824ffd811d98a83b58ec13000
- 

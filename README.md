@@ -46,7 +46,7 @@
 
   - 下载exe安装，比如[scipy](http://download.csdn.net/detail/caanyee/8241305)
 
-  - 更新提示`You are using pip version 8.1.1，however version 8.1.2 is available`导致不能使用pip，可使用命令`easy_install.exe pip==8.1.2`
+  - 更新提示`You are using pip version 8.1.1, however version 8.1.2 is available`导致不能使用pip，可使用命令`easy_install.exe pip==8.1.2`
 
 ```
   pip freeze：查看所有模块

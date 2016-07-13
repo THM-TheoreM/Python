@@ -36,7 +36,7 @@
 
 ## 编译
 
-- [python的编译机制]http://www.open-open.com/lib/view/open1380418623307.html
+- [python的编译机制](http://www.open-open.com/lib/view/open1380418623307.html)
 
 ## 模块
 
